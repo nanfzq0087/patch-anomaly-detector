@@ -18,7 +18,7 @@ This approach has several benefits:
 ## 🚀 Dataset
 This project uses the Server Machine Dataset (SMD) from the OmniAnomaly project and is used here for research and educational purposes only.  
 🔗 Download link:
-https://github.com/NetManAIOps/OmniAnomaly/tree/master/data  
+https://github.com/NetManAIOps/OmniAnomaly
 
 To use this dataset:  
 
