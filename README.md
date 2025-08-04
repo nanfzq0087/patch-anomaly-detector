@@ -2,6 +2,18 @@
 
 This is a learning-oriented project for implementing patch-based time series anomaly detection models. It supports training and inference for multiple models including AutoEncoder, USAD, PatchTST-AE, TranAD, AnomalyTransformer, DCdetector, and more — all under a unified framework with consistent evaluation and visualization.
 
+## 🚀 Patch-based
+
+Patch-based anomaly detection is a strategy that segments a multivariate time series into overlapping or non-overlapping **patches** (i.e., short sub-sequences), and then performs modeling and scoring on each patch instead of the entire sequence.
+
+This approach has several benefits:
+
+-  **Locality-aware**: Anomalies are often local in time; patches capture fine-grained patterns.
+-  **Model-agnostic**: Patch segmentation can be combined with traditional or deep models (AutoEncoder, Transformer, etc.).
+-  **Flexible scoring**: Each patch can be scored by reconstruction error, prediction loss, attention weight, KL divergence, etc.
+-  **Unifying framework**: Different patch sizes and segmentation modes (e.g., sliding, disjoint) allow for multi-resolution detection.
+
+
 ---
 ## 🚀 Dataset
 This project uses the Server Machine Dataset (SMD) from the OmniAnomaly project and is used here for research and educational purposes only.  
