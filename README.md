@@ -97,3 +97,6 @@ This script will:
 - Save per-machine JSON results in vis/
 - Aggregate and compute macro-average metrics (Precision, Recall, F1, AUC)
 - Export summary CSV to:
+```bash
+result/ 
+```
